@@ -1,0 +1,356 @@
+body {
+  font-family: 'Lato';
+}
+
+p {
+  font-size: 1.3rem;
+  color: rgb(66, 66, 66);
+}
+
+
+.logo {
+  width: 100px;
+}
+
+.navbar {
+  margin-bottom: -98px;
+  z-index: 997;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+.navbar-toggler-icon {
+  background-image: url(../images/menu-icon.png);
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.logBtn {
+  background-color: white;
+  color: rgb(66, 66, 66);
+  padding: 5px 15px;
+  border-radius: 3px;
+  opacity: 1 !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.nav-link {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+a {
+  color: white;
+  text-decoration: none !important;
+}
+
+
+.tagLine {
+  position: absolute;
+  z-index: 999;
+  bottom: 55%;
+  left: 50%;
+}
+
+.verticalLine {
+  height: 8vw;
+  width: 1vw;
+  background-color: #12b79d;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 1vw;
+}
+
+.text {
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-family: "Lato";
+  bottom: 5px;
+}
+
+.text h1 {
+  font-size: 2.9vw;
+}
+
+.tagline-highlight {
+  font-size: 3.5vw;
+}
+
+.btn-1 {
+  text-align: center;
+  position: absolute;
+  background-color: #12b79d;
+  width: 12vw;
+  padding: 10px;
+  overflow-x: visible;
+  border-radius: 4px;
+  max-width: 150px;
+  min-width: 110px;
+  max-height: 50px;
+}
+
+#getStartedBtn-3 {
+  left: 60% !important;
+}
+
+#getStartedBtn-1 {
+  left: 70% !important;
+}
+
+#getStartedBtn-2 {
+  left: 65% !important;
+}
+
+.btn-1 a {
+  text-decoration: none;
+  transition: font-size 0.5s;
+
+}
+
+.btn-1 :hover {
+  background-color: transparent;
+}
+
+.btn-1 a:hover {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  z-index: 999;
+}
+
+
+
+/* WELCOME TO MIXR*/
+
+#welcome {
+  padding: 8% 5%;
+  text-align: center;
+}
+
+#welcome-title {
+  margin-bottom: 25px;
+  font-size: 45px;
+  font-weight: 700;
+  color: rgb(66, 66, 66);
+}
+
+#welcome-description {
+  padding: 0 5%;
+}
+
+
+#welcome img {
+  width: 70%;
+  min-width: 500px;
+  max-width: 900px;
+}
+
+
+
+
+/* CTA-panel */
+
+.CTA-container {
+  padding: 20px 0;
+}
+
+
+.CTA-panel {
+  background-image: linear-gradient(to right, #00e8a6 0%, #00bfa6 100%);
+  padding: 10% 5%;
+}
+
+.CTA-panel h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 4vw;
+  padding: 0 15%;
+}
+
+.CTA-panel p {
+  padding: 0 15%;
+}
+
+.CTA-img {
+  text-align: center;
+}
+
+.CTA-img img {
+  width: 40vw;
+  max-width: 500px;
+  min-width: 400px;
+}
+
+.CTA-btn {
+  margin-left: 15%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fcb116;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  box-shadow: 0 3px 3px 1px rgba(0, 0, 120, 0.15);
+  margin-top: 20px;
+}
+
+
+
+
+
+/* FEATURES */
+
+#features {
+  padding: 5% 15%;
+  font-family: 'lato';
+  color: rgb(66, 66, 66);
+}
+
+.feature-container {
+  margin: 8% 0;
+}
+
+.feature-img {
+  text-align: center;
+}
+
+.feature-img img {
+  width: 150%;
+  min-width: 350px;
+  margin-left: -30%;
+}
+
+#feature-img2 {
+  margin-left: 0 !important;
+}
+
+.featuresText {
+  position: relative;
+  padding: 20% 0;
+}
+
+#features h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+.featuresText p {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 1600px) {
+  .featuresText {
+    position: relative;
+    padding: 20% 5%;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  #features {
+    padding: 5% 5%;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+
+  .carousel-item {
+    overflow-x: hidden;
+  }
+
+  .w-100 {
+    width: 250% !important;
+    margin-left: -120%;
+  }
+
+  .tagLine {
+    bottom: 55%;
+    left: 8%;
+  }
+
+  .verticalLine {
+    height: 15vw;
+  }
+
+  .text h1 {
+    font-size: 6vw;
+  }
+
+  .tagline-highlight {
+    font-size: 8vw;
+  }
+
+  .btn-1 {
+    left: 80%;
+    width: 20vw;
+    height: 10vw;
+    padding-top: 2vw;
+  }
+
+}
+
+@media screen and (max-width:512px) {
+
+  #welcome-description {
+    padding: 0 2%;
+    text-align: justify;
+  }
+
+  #welcome img {
+    width: 70%;
+    min-width: 400px;
+    margin-left: -10%;
+  }
+
+  .CTA-img img {
+    width: 40vw;
+    min-width: 300px;
+  }
+
+  .CTA-panel p {
+    padding: 0 2%;
+  }
+
+  .CTA-panel h2 {
+    padding: 0 2%;
+  }
+
+  .CTA-btn {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar-expand-sm {
+    width: 100vw;
+    text-align: right;
+    background-color: rgb(60, 60, 100);
+  }
+
+  .show {
+    line-height: 2.5;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+
+  #feature-img2 {
+    margin-left: -20% !important;
+  }
+
+
+}
