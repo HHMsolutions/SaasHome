@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato';
+  oveflow-x: hidden;
 }
 
 p {
@@ -346,6 +347,7 @@ a {
     line-height: 2.5;
     padding: 10px;
     padding-bottom: 30px;
+    transition: all 1s ease;
   }
 
   #feature-img2 {
